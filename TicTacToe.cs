@@ -284,6 +284,7 @@ namespace Tic_Tac_Toe
 
         private void button1_Click(object sender, EventArgs e)
         {
+            player1Turn = true;
             turnCount = 0;
             ResetBox();
             ButtonsOn();
